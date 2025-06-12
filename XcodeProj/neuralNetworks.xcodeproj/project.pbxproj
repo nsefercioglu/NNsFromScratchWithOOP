@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25FEC39F2DCEAC1C009E3011 /* sfml-graphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FEC39B2DCEAC1C009E3011 /* sfml-graphics.framework */; };
+		25FEC3A02DCEAC1C009E3011 /* sfml-graphics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 25FEC39B2DCEAC1C009E3011 /* sfml-graphics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		25FEC3A12DCEAC1C009E3011 /* sfml-system.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FEC39C2DCEAC1C009E3011 /* sfml-system.framework */; };
+		25FEC3A22DCEAC1C009E3011 /* sfml-system.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 25FEC39C2DCEAC1C009E3011 /* sfml-system.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		25FEC3A32DCEAC1C009E3011 /* freetype.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FEC39D2DCEAC1C009E3011 /* freetype.framework */; };
+		25FEC3A42DCEAC1C009E3011 /* freetype.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 25FEC39D2DCEAC1C009E3011 /* freetype.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		25FEC3A52DCEAC1C009E3011 /* sfml-window.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25FEC39E2DCEAC1C009E3011 /* sfml-window.framework */; };
+		25FEC3A62DCEAC1C009E3011 /* sfml-window.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 25FEC39E2DCEAC1C009E3011 /* sfml-window.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		252D4B482DCE2B3000C04066 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		25FEC3A72DCEAC1C009E3011 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				25FEC3A62DCEAC1C009E3011 /* sfml-window.framework in Embed Frameworks */,
+				25FEC3A42DCEAC1C009E3011 /* freetype.framework in Embed Frameworks */,
+				25FEC3A02DCEAC1C009E3011 /* sfml-graphics.framework in Embed Frameworks */,
+				25FEC3A22DCEAC1C009E3011 /* sfml-system.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		252D4B4A2DCE2B3000C04066 /* neuralNetworks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = neuralNetworks; sourceTree = BUILT_PRODUCTS_DIR; };
+		25FEC39B2DCEAC1C009E3011 /* sfml-graphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-graphics.framework"; path = "../../../../SFML-2.6.1/Frameworks/sfml-graphics.framework"; sourceTree = "<group>"; };
+		25FEC39C2DCEAC1C009E3011 /* sfml-system.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-system.framework"; path = "../../../../SFML-2.6.1/Frameworks/sfml-system.framework"; sourceTree = "<group>"; };
+		25FEC39D2DCEAC1C009E3011 /* freetype.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = freetype.framework; path = "../../../../SFML-2.6.1/Frameworks/freetype.framework"; sourceTree = "<group>"; };
+		25FEC39E2DCEAC1C009E3011 /* sfml-window.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-window.framework"; path = "../../../../SFML-2.6.1/Frameworks/sfml-window.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		252D4B4C2DCE2B3000C04066 /* neuralNetworks */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = neuralNetworks;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		252D4B472DCE2B3000C04066 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25FEC3A52DCEAC1C009E3011 /* sfml-window.framework in Frameworks */,
+				25FEC3A32DCEAC1C009E3011 /* freetype.framework in Frameworks */,
+				25FEC39F2DCEAC1C009E3011 /* sfml-graphics.framework in Frameworks */,
+				25FEC3A12DCEAC1C009E3011 /* sfml-system.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		252D4B412DCE2B3000C04066 = {
+			isa = PBXGroup;
+			children = (
+				252D4B4C2DCE2B3000C04066 /* neuralNetworks */,
+				25FEC39A2DCEAC1C009E3011 /* Frameworks */,
+				252D4B4B2DCE2B3000C04066 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		252D4B4B2DCE2B3000C04066 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				252D4B4A2DCE2B3000C04066 /* neuralNetworks */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25FEC39A2DCEAC1C009E3011 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25FEC39D2DCEAC1C009E3011 /* freetype.framework */,
+				25FEC39B2DCEAC1C009E3011 /* sfml-graphics.framework */,
+				25FEC39C2DCEAC1C009E3011 /* sfml-system.framework */,
+				25FEC39E2DCEAC1C009E3011 /* sfml-window.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		252D4B492DCE2B3000C04066 /* neuralNetworks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 252D4B512DCE2B3000C04066 /* Build configuration list for PBXNativeTarget "neuralNetworks" */;
+			buildPhases = (
+				252D4B462DCE2B3000C04066 /* Sources */,
+				252D4B472DCE2B3000C04066 /* Frameworks */,
+				252D4B482DCE2B3000C04066 /* CopyFiles */,
+				25FEC3A72DCEAC1C009E3011 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				252D4B4C2DCE2B3000C04066 /* neuralNetworks */,
+			);
+			name = neuralNetworks;
+			packageProductDependencies = (
+			);
+			productName = neuralNetworks;
+			productReference = 252D4B4A2DCE2B3000C04066 /* neuralNetworks */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		252D4B422DCE2B3000C04066 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					252D4B492DCE2B3000C04066 = {
+						CreatedOnToolsVersion = 16.3;
+						LastSwiftMigration = 1630;
+					};
+				};
+			};
+			buildConfigurationList = 252D4B452DCE2B3000C04066 /* Build configuration list for PBXProject "neuralNetworks" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 252D4B412DCE2B3000C04066;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 252D4B4B2DCE2B3000C04066 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				252D4B492DCE2B3000C04066 /* neuralNetworks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		252D4B462DCE2B3000C04066 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		252D4B4F2DCE2B3000C04066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		252D4B502DCE2B3000C04066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		252D4B522DCE2B3000C04066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				FRAMEWORK_SEARCH_PATHS = "/Users/nsefercioglujr/SFML-2.6.1/Frameworks";
+				HEADER_SEARCH_PATHS = "/Users/nsefercioglujr/SFML-2.6.1/include/SFML";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/nsefercioglujr/SFML-2.6.1/Frameworks";
+				LIBRARY_SEARCH_PATHS = "/Users/nsefercioglujr/SFML-2.6.1/lib";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		252D4B532DCE2B3000C04066 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				FRAMEWORK_SEARCH_PATHS = "/Users/nsefercioglujr/SFML-2.6.1/Frameworks";
+				HEADER_SEARCH_PATHS = "/Users/nsefercioglujr/SFML-2.6.1/include/SFML";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/nsefercioglujr/SFML-2.6.1/Frameworks";
+				LIBRARY_SEARCH_PATHS = "/Users/nsefercioglujr/SFML-2.6.1/lib";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		252D4B452DCE2B3000C04066 /* Build configuration list for PBXProject "neuralNetworks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252D4B4F2DCE2B3000C04066 /* Debug */,
+				252D4B502DCE2B3000C04066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		252D4B512DCE2B3000C04066 /* Build configuration list for PBXNativeTarget "neuralNetworks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				252D4B522DCE2B3000C04066 /* Debug */,
+				252D4B532DCE2B3000C04066 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 252D4B422DCE2B3000C04066 /* Project object */;
+}
